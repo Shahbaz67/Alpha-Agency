@@ -1,0 +1,171 @@
+input[type="text"], input[type="email"] {
+    text-indent: 10px;
+    font-size: 20px; 
+    color: black;
+}
+.connect {
+    position: absolute;
+    top: 53px;
+    left: 59px;
+    width: 276px;
+    height: 41px;
+    font: normal normal 600 34px/41px Aktifo A;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.outstanding {
+    position: absolute;
+    top: 101px;
+    left: 59px;
+    width: 404px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 20px/24px Aktifo A;
+    letter-spacing: 0px;
+    color: #292929;
+}
+/* .form { */
+.popup {
+    display: none; /* Hide the popup by default */
+    width: 400px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    }
+      
+/* } */
+.form-flex {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 172px;
+    left: 59px;
+    bottom: 227px;
+    width: 616px;
+    /* background-color: aqua; */
+}
+.form-rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 616px;
+    height: 81px;
+    /* background-color: antiquewhite; */
+}
+.additional {
+    height: 141px;
+}
+.personal {
+    display: flex;
+    justify-content: space-between;
+    width: 616px;
+    height: 81px;
+    /* background-color: aquamarine; */
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 283px;
+    height: 81px;
+    /* background-color: cornflowerblue; */
+}
+.column-name {
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 20px/24px Aktifo A;
+    letter-spacing: 0px;
+    color: #292929;
+}
+.placeholder1 {
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #62777D;
+    border-radius: 8px;
+}
+.input-text {
+    margin-top: 11px;
+    padding: 11px;
+    /* margin-left: 20px; */
+    /* width: 96px;
+    height: 24px; */
+    font: normal normal 300 20px/24px Aktifo A;
+    letter-spacing: 0px;
+    color: #5D5D5D;
+}
+.installer {
+    margin-top: 11px;
+    margin-left: 24px;
+    width: 78px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 300 20px/24px Aktifo A;
+    letter-spacing: 0px;
+    color: #5D5D5D;
+    opacity: 1;
+}
+.submit {
+    position: absolute;
+    display: flex;
+    top: 956px;
+    left: 226px;
+    width: 359px;
+    height: 75px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #F26621 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+}
+.submit-text-box {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 159px;
+    height: 36px;
+}
+.submit-text {
+    width: 108px;
+    font: normal normal 600 30px/36px Aktifo A;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.checkbox {
+    position: absolute;
+    top: 877px;
+    left: 60px;
+    width: 24px;
+    height: 24px;
+    border: 0.5px solid #5D5D5D;
+    border-radius: 4px;
+}
+.allow {
+    position: absolute;
+    top: 877px;
+    left: 97px;
+    width: 527px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 300 20px/24px Aktifo A;
+    letter-spacing: 0px;
+    color: #292929;
+}
+/* .hidden {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+    font-size: 32px;
+    transform: translate(-50%, -50%);
+    background-color: red;
+} */
+
+  

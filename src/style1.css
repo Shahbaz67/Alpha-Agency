@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.block1 {
+    height: 924px;
+}
+.block2 {
+    position: relative;
+    height: 789px;
+    /* object-fit:cover; */
+}
+.block3 {
+    position: relative;
+    width: 1920px;
+    height: 1342px;
+    background: #E5E5E5 0% 0% no-repeat padding-box;
+}
+.container3 {
+    width: 681px;
+    height: 1156px;
+}
+.footer{
+    position: absolute;
+    top: 2869px;
+    left: 0px;
+    width: 1920px;
+    height: 246px;
+    background-color: black;
+}
+.form{
+    position: absolute;
+    top: 102px;
+    left: 1048px;
+    width: 734px;
+    height: 1079px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 14px 27px #00000017;
+    border-radius: 13px;
+    z-index: 1;
+}
+.avery {
+    position: absolute;
+    top: 76px;
+    left: 141px;
+    width: 262px;
+    height: 88px;
+    background: transparent 0% 0% no-repeat padding-box;
+}
+.para1 {
+    position: absolute;
+    top: 295px;
+    left: 141px;
+    width: 754px;
+    height: 189px;
+    text-align: left;
+    font: normal normal normal 51px/64px Aktifo A;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.para2 {
+    position: absolute;
+    top: 532px;
+    left: 141px;
+    width: 527px;
+    height: 82px;
+    text-align: left;
+    font: normal normal 300 34px/41px Aktifo A;
+    letter-spacing: 0px;
+    color: #292929;
+}
+.flex-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 677px;
+    left: 172px;
+    height: 139px;
+    width: 551px;
+}
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98px;
+}
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 122px;
+}
+.content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 104px;
+}
+.circle {
+    display: flex;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: black;
+}
+.image1, .image2, .image3 {
+    margin: auto;   
+    background: transparent;
+}
+.image1 {
+    width: 38px;
+    height: 51px;
+}
+.image2 {
+    width: 40px;
+    height: 47px;
+}
+.image3 {
+    width: 60px;
+    height: 60px;
+}
+.text {
+    font: normal normal normal 20px/24px Aktifo A;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #5D5D5D;
+}
