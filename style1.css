@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
 }
 .block1 {
     height: 924px;
@@ -8,11 +9,9 @@
 .block2 {
     position: relative;
     height: 789px;
-    /* object-fit:cover; */
 }
 .block3 {
     position: relative;
-    width: 1920px;
     height: 1342px;
     background: #E5E5E5 0% 0% no-repeat padding-box;
 }
